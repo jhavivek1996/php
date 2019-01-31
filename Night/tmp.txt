@@ -1,0 +1,13 @@
+Once a file is opened using fopen() function it can be read with a function called fread(). This function requires two arguments. These must be the file pointer and the length of the file expressed in bytes.
+
+The files length can be found using the filesize() function which takes the file name as its argument and returns the size of the file expressed in bytes.
+
+So here are the steps required to read a file with PHP.
+
+Open a file using fopen() function.
+
+Get the file's length using filesize() function.
+
+Read the file's content using fread() function.
+
+Close the file with fclose() function.
